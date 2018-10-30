@@ -1,5 +1,8 @@
 import pygame
 
+# 屏幕大小的常量
+SCREEN_RECT = pygame.Rect(480, 700)
+
 
 class GameSprite(pygame.sprite.Sprite):
     """ 飞机大战游戏精灵 """
