@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bc5b83e-8e51-4b2f-96fa-b22b06fd3f71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/plane_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/plane_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plane_sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/plane_sprites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1402" />
+          <entry key="py" value="1665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1402" />
+          <entry key="Python" value="1665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -47,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plane_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="454">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1540922227370" expanded="true" signature="68:69" ph="..." />
@@ -65,20 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plane_sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="511">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
               <folding>
-                <marker date="1540922042280" expanded="true" signature="137:138" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="137:159" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="204:214" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="415:425" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="504:505" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="504:509" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="562:572" ph="..." />
-                <marker date="1540922042280" expanded="true" signature="783:793" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1540922471004" expanded="true" signature="151:152" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="151:173" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="218:228" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="429:439" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="518:519" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="518:523" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="576:586" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="797:807" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="1004:1009" ph="..." />
+                <marker date="1540922471004" expanded="true" signature="1046:1056" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,8 +102,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plane_sprites.py" />
         <option value="$PROJECT_DIR$/plane_main.py" />
+        <option value="$PROJECT_DIR$/plane_sprites.py" />
       </list>
     </option>
   </component>
@@ -239,27 +242,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plane_sprites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1540922042280" expanded="true" signature="137:138" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="137:159" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="204:214" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="415:425" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="504:505" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="504:509" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="562:572" ph="..." />
-            <marker date="1540922042280" expanded="true" signature="783:793" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plane_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="454">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1540922227370" expanded="true" signature="68:69" ph="..." />
@@ -268,6 +254,26 @@
             <marker date="1540922227370" expanded="true" signature="357:499" ph="..." />
             <marker date="1540922227370" expanded="true" signature="895:1048" ph="..." />
             <marker date="1540922227370" expanded="true" signature="1120:1202" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plane_sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540922471004" expanded="true" signature="151:152" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="151:173" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="218:228" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="429:439" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="518:519" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="518:523" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="576:586" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="797:807" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="1004:1009" ph="..." />
+            <marker date="1540922471004" expanded="true" signature="1046:1056" ph="..." />
           </folding>
         </state>
       </provider>

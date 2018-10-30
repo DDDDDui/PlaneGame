@@ -1,3 +1,4 @@
+import random
 import pygame
 
 # 屏幕大小的常量
@@ -45,3 +46,32 @@ class Background(GameSprite):
         # 2. 判断图片是否移出屏幕外，如果是，将图像移到屏幕的上方
         if self.rect.y >= SCREEN_RECT.height:
             self.rect.y = -self.rect.height
+
+
+class Enemy(GameSprite):
+    """ 敌机精灵 """
+
+    def __init__(self):
+
+        # 1. 调用父类的方法，创建敌机精灵，同时指定敌机图片
+        super().__init__("./images/enemy1.png")
+
+        # 2. 指定敌机的初始随机速度 1~3
+        self.speed = random.randint(1, 3)
+
+        # 3. 指定敌机的初始随机位置
+        self.rect.bottom = 0
+        max_x = SCREEN_RECT.width - self.rect.width
+        self.rect.x = random.randint(0, max_x)
+
+    def update(self):
+
+        # 1. 调用父类的方法，保持垂直方向的移动
+        super().update()
+
+        # 2. 判断是否飞出屏幕，如果是，需要从敌机精灵组中移出
+        if self.rect.y >= SCREEN_RECT.height:
+            print("飞出屏幕， 需要从敌机精灵组中移除")
+
+    def __del__(self):
+        print("敌机被销毁...")
