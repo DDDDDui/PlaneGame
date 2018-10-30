@@ -5,6 +5,8 @@ import pygame
 SCREEN_RECT = pygame.Rect(0, 0, 480, 700)
 # 刷新的帧率常量
 FRAME_PER_SEC = 60
+# 创建敌机的定时常量
+CREATE_ENEMY_EVENT = pygame.USEREVENT
 
 
 class GameSprite(pygame.sprite.Sprite):
