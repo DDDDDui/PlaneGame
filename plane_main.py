@@ -1,4 +1,3 @@
-import pygame
 from plane_sprites import *
 
 
@@ -47,6 +46,7 @@ class PlaneGame(object):
             # 判断是否退出游戏
             if event.type == pygame.QUIT:
                 PlaneGame.__game_over()
+
             elif event.type == CREATE_ENEMY_EVENT:
                 print("敌机出场...")
                 # 创建敌机精灵
