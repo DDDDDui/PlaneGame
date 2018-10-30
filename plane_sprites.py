@@ -1,7 +1,7 @@
 import pygame
 
 # 屏幕大小的常量
-SCREEN_RECT = pygame.Rect(480, 700)
+SCREEN_RECT = pygame.Rect(0, 0, 480, 700)
 # 刷新的帧率常量
 FRAME_PER_SEC = 60
 
@@ -23,3 +23,25 @@ class GameSprite(pygame.sprite.Sprite):
 
         # 在屏幕的垂直方向上移动
         self.rect.y += self.speed
+
+
+class Background(GameSprite):
+    """ 游戏背景精灵 """
+
+    def __init__(self, is_alt=False):
+
+        # 1. 调用父类的方法实现精灵的创建(image/rect/speed)
+        super().__init__("./images/background.png")
+
+        # 2. 判断是否交替图像，如果是，需要设置初始位置
+        if is_alt:
+            self.rect.y = -self.rect.height
+
+    def update(self):
+
+        # 1. 调用父类的方法实现
+        super().update()
+
+        # 2. 判断图片是否移出屏幕外，如果是，将图像移到屏幕的上方
+        if self.rect.y >= SCREEN_RECT.height:
+            self.rect.y = -self.rect.height

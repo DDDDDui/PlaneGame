@@ -8,7 +8,7 @@ class PlaneGame(object):
         print("游戏初始化")
 
         # 1. 创建游戏的窗口
-        self.screen = pygame.display.set_mode(SCREEN_RECT)
+        self.screen = pygame.display.set_mode(SCREEN_RECT.size)
         # 2. 创建游戏的时钟
         self.clock = pygame.time.Clock()
         # 3. 调用私有方法，精灵和精灵组的创建
@@ -17,7 +17,9 @@ class PlaneGame(object):
     def _create_sprites(self):
 
         # 创建背景精灵和精灵组
-        pass
+        bg1 = Background()
+        bg2 = Background(True)
+        self.back_group = pygame.sprite.Group(bg1, bg2)
 
     def start_game(self):
         print("游戏开始")
@@ -41,7 +43,9 @@ class PlaneGame(object):
         pass
 
     def __update_sprites(self):
-        pass
+
+        self.back_group.update()
+        self.back_group.draw(self.screen)
 
     @staticmethod
     def __game_over():
