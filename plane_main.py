@@ -37,7 +37,11 @@ class PlaneGame(object):
             pygame.display.update()
 
     def __event_handler(self):
-        pass
+
+        for event in pygame.event.get():
+            # 判断是否退出游戏
+            if event.type == pygame.QUIT:
+                PlaneGame.__game_over()
 
     def __check_collide(self):
         pass
@@ -50,6 +54,9 @@ class PlaneGame(object):
     @staticmethod
     def __game_over():
         print("游戏结束")
+
+        pygame.quit()
+        exit()
 
 
 if __name__ == "__main__":
